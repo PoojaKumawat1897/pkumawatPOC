@@ -1,0 +1,66 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "fullName": "Mark",
+      "contactPreference": "email",
+      "email" : "mark@email.com",
+      "phone": "9876543210",
+      "skills":[
+        {
+          "skillName": "C#",
+          "experienceInYears": 2,
+          "proficiency": "beginner"
+        },
+        {
+          "skillName": "Java",
+          "experienceInYears": 2,
+          "proficiency": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fullName": "Tom",
+      "contactPreference": "phone",
+      "email" : "tom@email.com",
+      "phone": "9988776655",
+      "skills":[
+        {
+          "skillName": "Angular",
+          "experienceInYears": 4,
+          "proficiency": "Advanced"
+        },
+        {
+          "skillName": "Python",
+          "experienceInYears": 3,
+          "proficiency": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "fullName": "John",
+      "contactPreference": "phone",
+      "email": "john@email.com",
+      "phone": "3242138971",
+      "skills": [
+          {
+            "skillName": "Angular",
+            "experienceInYears": 2,
+            "proficiency": "beginner"
+          },
+          {
+            "skillName": "HTML",
+            "experienceInYears": 2,
+            "proficiency": "intermediate"
+          },
+          {
+            "skillName": "LINQ",
+            "experienceInYears": 3,
+            "proficiency": "advanced"
+          }
+        ]
+    }
+  ]
+}
