@@ -71,8 +71,27 @@
       "skills": [
         {
           "skillName": "Angular",
-          "experienceInYears": "2",
+          "experienceInYears": "3",
           "proficiency": "beginner"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "fullName": "emma",
+      "contactPreference": "email",
+      "email": "emma@gmail.com",
+      "phone": "9876543210",
+      "skills": [
+        {
+          "skillName": "Angular",
+          "experienceInYears": "3",
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "java",
+          "experienceInYears": "5",
+          "proficiency": "intermediate"
         }
       ]
     }

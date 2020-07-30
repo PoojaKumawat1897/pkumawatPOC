@@ -4,15 +4,13 @@ import { CreateEmployeeComponent } from './create-employee/create-employee.compo
 import { ListEmployeesComponent } from './list-employees/list-employees.component';
 
 const appRoutes: Routes = [
-  { path: 'list',component: ListEmployeesComponent },
-  { path: 'create', component: CreateEmployeeComponent},
-  { path: 'edit/:id', component: CreateEmployeeComponent}
+  { path: '', component: ListEmployeesComponent },
+  { path: 'create', component: CreateEmployeeComponent },
+  { path: 'edit/:id', component: CreateEmployeeComponent },
 ];
 
 @NgModule({
-  imports: [
-    RouterModule.forChild(appRoutes)
-  ],
-  exports:[ RouterModule]
+  imports: [RouterModule.forChild(appRoutes)],
+  exports: [RouterModule],
 })
-export class EmployeeRoutingModule { }
+export class EmployeeRoutingModule {}
