@@ -1,4 +1,4 @@
-export interace ISkill{
+export interface ISkill{
   skillName: string;
   experienceInYears: number;
   proficiency: string;
